@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/LoginFragment">
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.mr.bootcampweek4.ui.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_LoginFragment_to_TodoFragment"
+            app:destination="@id/TodoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/TodoFragment"
+        tools:layout="@layout/fragment_todo"
+        android:name="com.mr.bootcampweek4.base.TodoFragment"
+        android:label="TodoFragment" />
+
+</navigation>

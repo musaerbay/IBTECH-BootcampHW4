@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">bootcampweek4</string>
+
+    <!-- Login -->
+    <string name="login_text">Giriş Yap</string>
+    <string name="password_hint">Sifre giriniz</string>
+    <string name="email_hint">Email adresi giriniz</string>
+    <string name="name_hint">Ad Soyad giriniz</string>
+    <string name="giris_yap">GİRİŞ YAP</string>
+
+    <string name="login_error">Bir hata oluştu.</string>
+
+    <!-- ToDo -->
+    <string name="todo_today">Today</string>
+    <string name="no_task">Task Bulunamadı</string>
+
+    <string name="todos_loading">Your tasks are loading…</string>
+    <string name="no_more_todos">No more todos</string>
+    <string name="failed">Operation failed.</string>
+    <string name="completed_successfully">Operation completed.</string>
+    <string name="add_task">Add Task</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
